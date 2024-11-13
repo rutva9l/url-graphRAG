@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "graphrag"
+version = "0.1.0"
+description = ""
+authors = ["Rutva L <rutva943@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.10"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+langchain-groq = "^0.2.1"
+langchain-experimental = "^0.3.3"
+neo4j = "^5.26.0"
+wikipedia = "^1.4.0"
+tiktoken = "^0.8.0"
+yfiles-jupyter-graphs = "^1.9.0"
+sentence-transformers = "^3.3.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
